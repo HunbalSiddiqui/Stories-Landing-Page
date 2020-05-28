@@ -1,0 +1,25 @@
+.TheStories{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,min-content));
+}
+.story_box{
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    transition: 0.5s ease-in-out;
+}
+.story_box:hover{
+    background-image: linear-gradient(red, yellow, blue);
+    color: white;
+}
+.story_img_size{
+    width: 100%;height: 100%;
+}
+.story_details{
+    text-align: center;
+}

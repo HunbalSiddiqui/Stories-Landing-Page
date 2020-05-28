@@ -1,0 +1,16 @@
+.FullNav{
+    width: 0%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;right: 0;
+    position: fixed;
+    color: white;
+}
+.nav_item{
+    font-size: 3rem;
+    transition: 0.1s ease-in-out;
+}
+.nav_item:hover{
+    border-bottom: 1px solid lightgreen;
+}
